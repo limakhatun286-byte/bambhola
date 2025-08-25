@@ -34,7 +34,7 @@ class JaundiceAssistant:
         self.running = True
 
         # === NEW: OpenAI / ChatGPT init ===
-        self.openai_api_key = os.getenv("OPENAI_API_KEY", "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")
+        self.openai_api_key = os.getenv("OPENAI_API_KEY", "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")
         self.chatgpt_ready = False
         self._openai_client = None          # new SDK client
         self._openai_legacy = None          # legacy module
